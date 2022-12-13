@@ -1,0 +1,137 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Karla", sans-serif;
+    margin: 0;
+    border-style: solid;
+    background-color: black;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+main {
+    padding: 36px;
+    border-color: #f16637;
+    border-style: solid;
+}
+
+.header {
+    align-items: center;
+    margin: auto 0px;
+    color: white;
+    padding: 20px;
+}
+
+.header--image {
+    height: 100%;
+    margin-right: 6px;
+}
+
+.header--title--1 {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 50px;;
+    color: #fbff00;
+    margin: 0px;
+    padding: 0px;
+}
+
+.header--title--2 {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 50px;;
+    color: #f16637;
+    margin: 0px;
+    padding: 0px;
+}
+
+.header--logo {
+    font-size: 70px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.header--project {
+    font-size: 0.75rem;
+    font-weight: 500;
+}
+
+.form {
+    display: grid;
+    grid-template: 40px 40px / 1fr 1fr;
+    gap: 17px;
+    margin-bottom: 17px;
+}
+
+.form--input {
+    font-family: "Karla", sans-serif;
+    border-radius: 5px;
+    border: 1px solid #D5D4D8;
+    text-indent: 5px;
+}
+
+.form--button {
+    grid-column: 1 / -1;
+    font-family: 'VT323', monospace;
+    font-size: 30px;
+    border-radius: 5px;
+    background: linear-gradient(90.41deg, #f16637 1.14%, #a0bf08 100%);
+    color: white;
+    border: none;
+    cursor: pointer;
+    height: 40px;
+}
+
+.meme {
+    /* position: relative; */
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.meme--image {
+    max-width: 100%;
+    height: 280px;
+    border-radius: 3px;
+}
+
+.meme--text {
+    position: absolute;
+    width: 80%;
+    text-align: center;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 15px 0;
+    padding: 0 5px;
+    font-family: impact, sans-serif;
+    font-size: 2em;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 2.5px;
+    text-shadow:
+    1px 1px 0 #000,
+    -1px -1px 0 #000,
+    2px -2px 0 #000,
+    -2px 2px 0 #000,
+    0 2px 0 #000,
+    2px 0 0 #000,
+    0 -2px 0 #000,
+    -2px 0 0 #000,
+    2px 2px 5px #000;
+    
+    /* border-style: solid; */
+    height: 0px;
+    width: 0px;
+}
+
+.bottom {
+    top: 250px;
+    left: 900px;
+}
+
+.top {
+    top: 90px;
+    left: 900px;
+}
